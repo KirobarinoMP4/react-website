@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.hoverBottom:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #6c63ff;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+
+}
+
+.hoverBottom:hover:after { 
+  transform: scaleX(1); 
+}
+
+.hoverBottom .fromLeft:after{  
+  transform-origin:  0% 50%; 
+}
+
+.hero {
+  background-image: url('./image/background-image.jpg');
+}
+
