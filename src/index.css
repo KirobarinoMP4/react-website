@@ -25,3 +25,38 @@
   background-image: url('./image/background-image.jpg');
 }
 
+.pop-up-animation:hover {
+  transform: scale(1.05);
+  transition: ease-in 300ms;
+}
+
+
+.cards-slider {
+  min-height: 30rem;
+  overflow: hidden;
+}
+
+/* .cards-slider::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20rem;
+  border: 2px solid blue;
+} */
+
+.cards-slider-wrapper {
+  margin: auto;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  transition: all 0.5s;
+}
+
+.card {
+  @apply p-4 bg-white text-center rounded-lg shadow-xl border cursor-pointer w-80;
+  margin-right: 1.5rem;
+
+}
+

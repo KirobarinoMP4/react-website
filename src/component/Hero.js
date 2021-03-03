@@ -8,7 +8,7 @@ const Hero = () => {
                 {/* Left Coloumn */}
                 <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
                     <h1 className="text-3xl my-4 font-bold leading-tight mx-auto">
-                        an Learning Robotics Kit
+                        An Learning Robotics Kit
                     </h1>
                     <p className="leading-normal text-xl mb-8">
                         Kami berusaha memfasilitasi semua orang untuk belajar, namun tetap merasakan euforia seperti bermain game. Sehingga orang-orang mampu menghabiskan waktu berjam-jam hanya untuk belajar, selayaknya bermain game
